@@ -1,0 +1,19 @@
+/* Partie général */
+body{
+
+}
+
+/* Partie top header */
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+ul,li {
+    display: inline-block;
+    margin: 15px;
+}
+
+.menu{
+    border: 1px solid black;
+}
