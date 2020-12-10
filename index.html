@@ -1,28 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="Style/Style.css">
+
+<link rel="stylesheet" type="text/css" media="screen and (min-width: 1600px)" href="style/Style.css">
+<link rel="stylesheet" type="text/css" media="screen and (max-width:480px)" href="style/mob.css">
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 <title>Reservia</title>
 <body>
     <header>
         <div id="top-header">
             <div id="logo">
-                <img src="Picture/logo/Reservia.svg" alt="">
+                <img src="Picture/logo/Reservia.svg" alt="Reservia">
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Hébergements</a></li>
-                    <li><a href="#">Activités</a></li>
-                </ul>
-            </nav>
-            <div id="Inscription">
-                <a href="#"><strong>S'inscrire</strong></a>
+            <div id="Navbar">
+                <nav>
+                    <ul>
+                        <li><a href="#">Hébergements</a></li>
+                        <li><a href="#">Activités</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
-        <h3> Trouvez votre hébergement pour des vacances de rêve</h3>
-        <p>En plein centre ville ou en pleine nature</p>
+        <div id="Banner">
+            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+            <p>En plein centre ville ou en pleine nature</p>
+        </div>
+        <div id="Recherche">
+            <i class="fas fa-map-marker-alt"></i>
+            <input type="text" placeholder="Marseille, France">
+            <button><span class="SearchText">Rechercher</span><i class="fas fa-search"></i></button>
+        </div>
+        <div id="Filtres">
+            <h4>Filtres</h4>
+            <button><i class="fas fa-money-bill-wave"></i>Economique</button>
+            <button><i class="fas fa-child"></i>Familial</button>
+            <button><i class="fas fa-heart"></i>Romantique</button>
+            <button><i class="fas fa-dog"></i>Animaux autorisés</button>
+        </div>
+        <div id="Info">
+            <i class="fas fa-info-circle"></i><p> Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
     </header>
+<!----------------------------------------------------------------------------------------------------------------------
+                                        Début partie Section
+----------------------------------------------------------------------------------------------------------------------->
+<div id="Section_One">
+    <section class="Hebergements">
+            <article class="bodyhebergements">
+                <div id="HeaderHebergement">
+                    <h3>Hébergements à Marseille</h3>
+                </div>
+                <div id="BodySection">
+                    <article class="cardbody">
+                        <figure>
+                            <figcaption>
+                                <p>test article 1</p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article class="cardbody">
+                        <figure>
+                            <figcaption>
+                                <p>test article 2</p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article class="cardbody">
+                        <figure>
+                            <figcaption>
+                                <p>test article 3</p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article class="cardbody">
+                        <figure>
+                            <figcaption>
+                                <p>test article 4</p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article class="cardbody">
+                        <figure>
+                            <figcaption>
+                                <p>test article 5</p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article class="cardbody">
+                        <figure>
+                            <figcaption>
+                                <p>test article 6</p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+        </article>
+        <aside class="populaire">
+            <div id="HeaderAside">
+                <h3>Les plus populaires</h3><i class="fas fa-chart-line"></i>
+            </div>
+            <article class="bodyaside">
+                <figure>
+                    <figcaption>
+                        <p>test aside</p>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="bodyaside">
+                <figure>
+                    <figcaption>
+                        <p>test aside</p>
+                    </figcaption>
+                </figure>
+            </article>
+        </aside>
+    </section>
+</div>
+<!----------------------------------------------------------------------------------------------------------------------
+                                        Début partie Footer
+----------------------------------------------------------------------------------------------------------------------->
+<footer>
+    <div class="footer_article">
+        <ol><h4>A propos</h4></ol>
+        <ol>Fonctionnement du site</ol>
+        <ol>Conditions générales de vente</ol>
+        <ol>Données et confidentialités</ol>
+    </div>
+    <div class="footer_article">
+        <ol><h4>Nos hébergements</h4></ol>
+        <ol>Charte qualité</ol>
+        <ol>Soumettre votre hôtel</ol>
+    </div>
+    <div class="footer_article">
+        <ol><h4>Assistance</h4></ol>
+        <ol>Centre d'aide</ol>
+        <ol>Nous contacter</ol>
+    </div>
+</footer>
+<!----------------------------------------------------------------------------------------------------------------------
+                                         Fin partie Footer
+----------------------------------------------------------------------------------------------------------------------->
+
 
 </body>
 </html>
