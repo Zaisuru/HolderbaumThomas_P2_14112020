@@ -1,0 +1,25 @@
+/***********************************************************************************************************************
+                                            Début partie Général
+***********************************************************************************************************************/
+
+#container{
+    margin: 0 5% 0 5%;
+    font-family: "Raleway", Arial, sans-serif;
+}
+section, footer{
+    margin-top: 3%;
+}
+
+/* Partie Footer */
+footer{
+    background: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+.Footer-Body{
+    margin-right: 15%;
+}
+.FooterTitle{
+    font-weight: bold;
+}
