@@ -1,0 +1,216 @@
+/***********************************************************************************************************************
+                                            Début partie Général
+***********************************************************************************************************************/
+
+#container{
+    margin: 0 5% 0 5%;
+    font-family: "Raleway", Arial, sans-serif;
+}
+section, footer{
+    margin-top: 3%;
+}
+#top-header h1{
+    display: none;
+}
+/***********************************************************************************************************************
+                                            Début partie Header
+***********************************************************************************************************************/
+
+#top-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+    #logo{
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    #Navbar{
+        display: flex;
+    }
+        #Navbar ul li{
+            display: inline-block;
+        }
+        #Navbar ul li a{
+            text-decoration: none;
+            color: black;
+        }
+            #Navbar #Nav .Active{
+                border-top: 1px solid #0065FC;
+                color: #0065FC;
+            }
+        #Navbar #Inscription{
+            font-weight: bold;
+        }
+            #Navbar #Inscription li a{
+                color: #0065FC;
+            }
+
+.Slogan{
+    margin: 0;
+}
+
+#Recherche{
+    margin-top: 1%;
+    display: flex;
+    height: 30px;
+}
+    #Recherche .fa-map-marker-alt{
+        background: #F2F2F2;
+        height: 100%;
+        width: 40px;
+        display: flex;
+        border-radius: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    #Recherche input{
+        border: none;
+        height: 100%;
+        width: 200px;
+    }
+    #Recherche input::placeholder{
+        color: black;
+        font-weight: bold;
+    }
+    #Recherche #Validation{
+        background: #0065FC;
+        color: white;
+        border: none;
+        border-bottom-right-radius: 10%;
+        border-top-right-radius: 10%;
+    }
+    #Recherche .fa-search{
+        display: none;
+    }
+
+#Filtres{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+}
+    #HeaderFiltre{
+        font-weight: bold;
+        margin-right: 3%;
+    }
+    .cartouche{
+        display: flex;
+        margin-right: 3%;
+    }
+        .BtnFiltre{
+            display: flex;
+            align-items: center;
+        }
+            .BtnFiltre .IconeFiltre{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                width: 35px;
+                height: 35px;
+                background: #DEEBFF;
+                color: #0065FC;
+            }
+            .BtnFiltre p{
+                font-weight: bold;
+            }
+
+#Banner{
+    display: flex;
+    align-items: center;
+}
+    #Banner i{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        color: #0065FC;
+        border:2px solid #F2F2F2;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 1%;
+    }
+
+/***********************************************************************************************************************
+                                         Début partie Section
+***********************************************************************************************************************/
+#Hebergement{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+.Card-Article{
+    background: #F2F2F2;
+    border-radius: 5%;
+    float: right;
+}
+    .Card-Header{
+        margin: 2% 2% 0 2%;
+    }
+    .Card-container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+        .Card-Body{
+            background: white;
+            padding: 1%;
+            margin: 1% 0 1% 0;
+            border-radius: 5%;
+        }
+            .Card-Body h4{
+                margin: 0;
+            }
+            .Card-Body p{
+                margin-top: 1%;
+            }
+            .Select{
+                color: #0065FC;
+            }
+            .NoSelect{
+                color: #F2F2F2;
+            }
+        .Card-footer{
+            margin: 2% 2% 0 2%;
+        }
+
+.Card-Aside{
+    background: #F2F2F2;
+    border-radius: 5%;
+    float: left;
+}
+    .HeaderAside{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .Aside-body{
+        background: white;
+        padding: 1%;
+        border-radius: 5%;
+    }
+        .Aside-body h4{
+            margin: 0;
+        }
+        .Aside-body p{
+            margin-top: 1%;
+        }
+/***********************************************************************************************************************
+                                            Début partie Footer
+***********************************************************************************************************************/
+
+/* Partie Footer */
+footer{
+    background: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+.Footer-Body{
+    margin-right: 15%;
+}
+.HeaderFooter{
+    font-weight: bold;
+}
