@@ -159,6 +159,7 @@ section, footer{
             padding: 1%;
             margin: 1% 0 1% 0;
             border-radius: 5%;
+            box-shadow: 3px 2px 5px grey;
         }
             .Card-Body h4{
                 margin: 0;
@@ -190,12 +191,23 @@ section, footer{
         background: white;
         padding: 1%;
         border-radius: 5%;
+        box-shadow: 3px 2px 5px grey;
     }
         .Aside-body h4{
             margin: 0;
         }
         .Aside-body p{
             margin-top: 1%;
+        }
+
+    #ActiContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+        .ArtiCard{
+            border: 1px solid black;
+            border-radius: 5%;
+            box-shadow: 3px 2px 5px grey;
         }
 /***********************************************************************************************************************
                                             Début partie Footer
