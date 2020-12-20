@@ -3,7 +3,8 @@
 ***********************************************************************************************************************/
 
 #container{
-    margin: 0 5% 0 5%;
+    max-width: 1500px;
+    margin: auto;
     font-family: "Raleway", Arial, sans-serif;
 }
 section, footer{
@@ -28,6 +29,8 @@ section, footer{
     }
     #Navbar{
         display: flex;
+        justify-content: space-around;
+        background: red;
     }
         #Navbar ul li{
             display: inline-block;
@@ -54,21 +57,24 @@ section, footer{
 #Recherche{
     margin-top: 1%;
     display: flex;
-    height: 30px;
+    height: 50px;
 }
     #Recherche .fa-map-marker-alt{
         background: #F2F2F2;
         height: 100%;
-        width: 40px;
+        width: 50px;
         display: flex;
-        border-radius: 10%;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
         justify-content: center;
         align-items: center;
     }
     #Recherche input{
         border: none;
         height: 100%;
-        width: 200px;
+        width: 250px;
+        border-top: 1px solid #F2F2F2;
+        border-bottom: 1px solid #F2F2F2;
     }
     #Recherche input::placeholder{
         color: black;
@@ -76,10 +82,13 @@ section, footer{
     }
     #Recherche #Validation{
         background: #0065FC;
+        width: 150px;
+        height: 100%;
         color: white;
+        font-weight: bold;
         border: none;
-        border-bottom-right-radius: 10%;
-        border-top-right-radius: 10%;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
     }
     #Recherche .fa-search{
         display: none;
@@ -96,29 +105,30 @@ section, footer{
     }
     .cartouche{
         display: flex;
-        margin-right: 3%;
+        border: 2px solid #F2F2F2;
+        border-radius: 30px;
+        margin-right: 35px;
     }
-        .BtnFiltre{
-            display: flex;
-            align-items: center;
-        }
-            .BtnFiltre .IconeFiltre{
+            .BtnFiltre {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 border-radius: 50%;
-                width: 35px;
-                height: 35px;
+                margin: -1px -1px -1px -1px;
+                width: 52px;
+                height: 52px;
                 background: #DEEBFF;
                 color: #0065FC;
             }
-            .BtnFiltre p{
+            .cartouche p{
                 font-weight: bold;
+                margin: 15px;
             }
 
 #Banner{
     display: flex;
     align-items: center;
+    margin-top: 15px;
 }
     #Banner i{
         display: flex;
@@ -139,28 +149,35 @@ section, footer{
 #Hebergement{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap-reverse;
 }
 .Card-Article{
     background: #F2F2F2;
-    border-radius: 5%;
-    float: right;
+    border-radius: 15px;
+    margin-right: 20px;
+    width: 70%;
 }
     .Card-Header{
         margin: 2% 2% 0 2%;
     }
     .Card-container{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between    ;
         flex-wrap: wrap;
+        width: 100%;
     }
         .Card-Body{
             background: white;
-            padding: 1%;
-            margin: 1% 0 1% 0;
-            border-radius: 5%;
+            padding: 5px;
+            height: 180px;
+            width: 250px;
+            border-radius: 15px;
             box-shadow: 3px 2px 5px grey;
         }
+            .Card-Body img{
+                height: 100%;
+                width: 100%;
+                border-radius: 15px;
+            }
             .Card-Body h4{
                 margin: 0;
             }
@@ -178,9 +195,9 @@ section, footer{
         }
 
 .Card-Aside{
+    width: 30%;
     background: #F2F2F2;
-    border-radius: 5%;
-    float: left;
+    border-radius: 15px;
 }
     .HeaderAside{
         display: flex;
@@ -189,10 +206,13 @@ section, footer{
     }
     .Aside-body{
         background: white;
-        padding: 1%;
-        border-radius: 5%;
+        border-radius: 15px;
         box-shadow: 3px 2px 5px grey;
+        display: flex;
     }
+        .Aside-body img{
+            width: 100%;
+        }
         .Aside-body h4{
             margin: 0;
         }
