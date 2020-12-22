@@ -185,25 +185,31 @@ section, footer{
         .Card-Body{
             background: white;
             padding: 5px;
-            height: 180px;
+            height: 230px;
             width: 250px;
             border-radius: 15px;
             box-shadow: 3px 2px 5px grey;
+            position: relative;
         }
             .Card-Body img{
-                height: 100%;
+                height: 75%;
                 width: 100%;
                 border-radius: 15px;
             }
             .Card-main{
-                padding: 0;
-                margin: 0;
+                position: absolute;
+                background: white;
+                top: 140px;
+                width: 235px;
+                padding: 8px;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
             }
             .Card-Body h4{
                 margin: 0;
             }
-            .Card-Body p{
-                margin-top: 1%;
+            .Card-main p{
+                margin-top: 2px;
             }
             .Select{
                 color: #0065FC;
@@ -222,17 +228,30 @@ section, footer{
 }
     .HeaderAside{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
     }
     .Aside-body{
         background: white;
-        padding: 3px;
+        padding: 5px;
         border-radius: 15px;
         box-shadow: 3px 2px 5px grey;
         display: flex;
         height: 150px;
+        position: relative;
     }
+        .Aside-main{
+            position: absolute;
+            left: 170px;
+            height: 135px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            background: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 8px;
+        }
         .Aside-body img{
             width: 55%;
             border-radius: 15px;
@@ -242,6 +261,7 @@ section, footer{
         }
         .Aside-body p{
             margin-top: 1%;
+            padding: 3px;
         }
 #SectionActi{
 }
