@@ -87,8 +87,9 @@ section, footer{
     }
     #Recherche input{
         border: none;
-        height: 100%;
-        width: 250px;
+        width:250px;
+        font-size: 18px;
+        padding: 15px;
         border-top: 1px solid #F2F2F2;
         border-bottom: 1px solid #F2F2F2;
     }
@@ -100,6 +101,7 @@ section, footer{
         background: #0065FC;
         width: 150px;
         height: 100%;
+        font-size: 18px;
         color: white;
         font-weight: bold;
         border: none;
