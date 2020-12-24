@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/css.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <title>Reservia</title>
@@ -21,8 +21,8 @@
             </figure>
             <nav id="Navbar">
                 <ul id="Nav">
-                    <li><a href="#" class="Active">Hébergements</a></li>
-                    <li><a href="#">Activités</a></li>
+                    <li><a href="#Hebergement" class="Active">Hébergements</a></li>
+                    <li><a href="#SectionActi">Activités</a></li>
                 </ul>
                 <ul id="Inscription">
                     <li><a href="">S'inscrire</a></li>
@@ -95,7 +95,6 @@
                         </figcaption>
                     </figure>
 
-
                     <figure class="Card-Body">
                         <a href="#">
                             <img src="Picture/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port"/>
@@ -106,7 +105,6 @@
                             <i class="fas fa-star Select"></i><i class="fas fa-star Select"></i><i class="fas fa-star Select"></i><i class="fas fa-star Select Select"></i><i class="fas fa-star Select"></i>
                         </figcaption>
                     </figure>
-
 
                     <figure class="Card-Body">
                         <a href="#">
@@ -119,7 +117,6 @@
                         </figcaption>
                     </figure>
 
-
                     <figure class="Card-Body">
                         <a href="#">
                             <img src="Picture/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" />
@@ -131,7 +128,6 @@
                         </figcaption>
                     </figure>
 
-
                     <figure class="Card-Body">
                         <a href="#">
                             <img src="Picture/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" />
@@ -142,7 +138,6 @@
                             <i class="fas fa-star Select"></i><i class="fas fa-star Select"></i><i class="fas fa-star Select"></i><i class="fas fa-star Select"></i><i class="fas fa-star NoSelect"></i>
                         </figcaption>
                     </figure>
-
 
                     <figure class="Card-Body">
                         <a href="#">
@@ -162,12 +157,14 @@
             </article>
 
             <aside class="Card-Aside">
+
                 <div class="HeaderAside">
                     <h3>Les plus populaires</h3>
                     <i class="fas fa-chart-line"></i>
                 </div>
+
                 <figure class="Aside-body">
-                    <img src="Picture/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin"/>
+                    <a><img id="SoleilMatin"  src="Picture/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin"/></a>
                     <figcaption class="Aside-main">
                         <div class="Name">
                             <h4>Hôtel Le soleil du matin</h4>
@@ -179,23 +176,22 @@
                     </figcaption>
                 </figure>
 
-
                 <figure class="Aside-body">
-                        <img src="Picture/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambre d'hôtes"/>
+                    <a>
+                        <img id="CoeurEau" src="Picture/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambre d'hôtes"/></a>
                     <figcaption class="Aside-main">
                         <div class="Name">
                             <h4>Au coeur de l'eau Chambres d'hôtes</h4>
                             <p>Nuit à partir de 71€</p>
                         </div>
                         <div class="star">
-                            <i class="fas fa-star Select"></i><i class="fas fa-star Select"></i><i class="fas fa-star Select"></i><i class="fas fa-star Select"></i><i class="fas fa-star NoSelect"></i>
+                            <i class="fas fa-star Select"></i><i class="fas fa-star Select"></i><i class="fas fa-star Select"></i><i class="fas fa-star Select"></i><i class="fas fa-star Select"></i>
                         </div>
                     </figcaption>
                 </figure>
 
-
                 <figure class="Aside-body">
-                        <img src="Picture/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc"/>
+                        <a><img id="BleuBlanc"  src="Picture/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et Blanc"/></a>
                     <figcaption class="Aside-main">
                         <div class="Name">
                             <h4>Hôtel Tout bleu et Blanc</h4>
@@ -209,7 +205,6 @@
             </aside>
         </section>
 
-
         <section id="SectionActi">
             <article id="Activité">
                 <div class="ActiCard-Header">
@@ -217,47 +212,47 @@
                 </div>
                 <div id="ActiContainer">
                     <figure class="ArtiCard">
-                            <img src="Picture/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port"/>
-                        <figcaption>
+                            <a href="#"><img src="Picture/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port"/></a>
+                        <figcaption class="Acti-main">
                             <h4>Vieux port</h4>
                         </figcaption>
                     </figure>
 
                     <div class="Mid">
-                        <figure class="ArtiCard">
+                        <figure class="HighCard">
                             <img src="Picture/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues"/>
-                            <figcaption>
+                            <figcaption class="MidMain">
                                 <h4>Fort de Pomègues</h4>
                             </figcaption>
                         </figure>
 
 
-                        <figure class="ArtiCard">
+                        <figure class="SmallCard">
                             <img src="Picture/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Iles de Frioul"/>
-                            <figcaption>
+                            <figcaption class="MidMain">
                                 <h4>Iles du Frioul</h4>
                             </figcaption>
                         </figure>
                     </div>
 
-                    <figure class="ArtiCard imgLarge">
+                    <figure class="ArtiCard">
                         <img src="Picture/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques"/>
-                        <figcaption>
+                        <figcaption class="Acti-main">
                             <h4>Parc National des Calanques</h4>
                         </figcaption>
                     </figure>
 
                     <div class="Mid">
-                        <figure class="ArtiCard imgSmall">
+                        <figure class="SmallCard">
                             <img src="Picture/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde"/>
-                            <figcaption>
+                            <figcaption class="MidMain">
                                 <h4>Notre-Dame-de-la-Garde</h4>
                             </figcaption>
                         </figure>
 
-                        <figure class="ArtiCard imgmedium">
+                        <figure class="HighCard">
                             <img src="Picture/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp"/>
-                            <figcaption>
+                            <figcaption class="MidMain">
                                 <h4>Parc Longchamp</h4>
                             </figcaption>
                         </figure>

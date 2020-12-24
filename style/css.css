@@ -1,7 +1,6 @@
 /***********************************************************************************************************************
                                             Début partie Général
 ***********************************************************************************************************************/
-
 #container{
     max-width: 1500px;
     margin: auto;
@@ -174,7 +173,7 @@ section, footer{
     width: 70%;
 }
     .Card-Header{
-        margin: 2% 2% 0 2%;
+        margin: 25px 35px 0 35px;
     }
     .Card-container{
         display: flex;
@@ -218,9 +217,9 @@ section, footer{
                 color: #F2F2F2;
             }
         .Card-footer{
-            margin: 2% 2% 0 2%;
+            margin: 35px 35px 0 35px;
         }
-
+/* Partie les plus populaires */
 .Card-Aside{
     width: 30%;
     background: #F2F2F2;
@@ -229,6 +228,7 @@ section, footer{
     .HeaderAside{
         display: flex;
         justify-content: space-between;
+        margin: 10px 35px 0 35px;
         align-items: center;
     }
     .Aside-body{
@@ -240,10 +240,32 @@ section, footer{
         height: 150px;
         position: relative;
     }
+        .Aside-body a{
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+            .Aside-body a img{
+                width: 70%;
+                border-radius: 15px;
+                position: relative;
+            }
+                #SoleilMatin{
+                    left: -45px;
+                }
+                #CoeurEau{
+                    left: -35px;
+                }
+                #BleuBlanc{
+                    top: -145px;
+                    left: -35px;
+                }
         .Aside-main{
             position: absolute;
-            left: 170px;
+            width: 45%;
             height: 135px;
+            left: 175px;
             border-top-right-radius: 15px;
             border-bottom-right-radius: 15px;
             background: white;
@@ -251,11 +273,7 @@ section, footer{
             flex-direction: column;
             justify-content: space-around;
             padding: 8px;
-        }
-        .Aside-body img{
-            width: 55%;
-            border-radius: 15px;
-        }
+         }
         .Aside-body h4{
             margin: 0;
         }
@@ -263,39 +281,84 @@ section, footer{
             margin-top: 1%;
             padding: 3px;
         }
-#SectionActi{
-}
+        #SectionActi{
+            display: flex;
+        }
+
+    /*  Partie Activité à Marseille */
     #Activité{
         width: 100%;
-        height: 500px;
+        height: 650px;
+        background: red;
+        display: flex;
+        flex-direction: column;
+    }
+    #Activité{
+        background: pink;
+        width: 100%;
+        height: 100%;
     }
         .ActiCard-Header{
-            margin: 2% 2% 0 2%;
+            background: peru;
         }
         #ActiContainer{
-            display: flex;
-            justify-content: space-around;
-            height: 100%;
+            background: mediumspringgreen;
             width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
         }
             .ArtiCard{
+                background: palevioletred;
                 border-radius: 15px;
-                box-shadow: 3px 2px 5px grey;
-                background: white;
+                width: 350px;
+                overflow: hidden;
                 margin: 0;
                 padding: 0;
-                height: 100%;
-                width: 300px;
             }
                 .ArtiCard img{
                     height: 90%;
-                    width: 100%;
-                    border-radius: 15px;
-                }
-                .ArtiCard figcaption{
+                    border-top-right-radius: 15px;
+                    border-top-left-radius: 15px;
                     margin: 0;
                     padding: 0;
                 }
+
+            .Mid{
+                width: 350px;
+                background: peru;
+            }
+                .HighCard{
+                    background: purple;
+                    height: 45%;
+                    border-radius: 15px;
+                    margin: 0;
+                    padding: 0;
+                }
+                    .HighCard img{
+                        height: 85%;
+                        width: 100%;
+                        border-top-right-radius: 15px;
+                        border-top-left-radius: 15px;
+                    }
+                    .MidMain{
+                        margin: 0;
+                        padding: 0;
+                        background: pink;
+                    }
+                .SmallCard{
+                    background: purple;
+                    height: 30%;
+                    border-radius: 15px;
+                    margin: 0;
+                    padding: 0;
+                }
+                    .SmallCard img{
+                        height: 80%;
+                        width: 100%;
+                        border-top-right-radius: 15px;
+                        border-top-left-radius: 15px;
+                    }
 /***********************************************************************************************************************
                                             Début partie Footer
 ***********************************************************************************************************************/
@@ -306,10 +369,18 @@ footer{
     display: flex;
     flex-wrap: wrap;
     padding: 1%;
+    margin-top:25px;
 }
 .Footer-Body{
     margin-right: 15%;
 }
 .HeaderFooter{
     font-weight: bold;
+}
+
+/***********************************************************************************************************************
+                                            Début partie Responsive
+***********************************************************************************************************************/
+@media screen and (max-width:1080px) {
+
 }
