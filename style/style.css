@@ -164,6 +164,7 @@ section, footer{
 /***********************************************************************************************************************
                                          Début partie Section
 ***********************************************************************************************************************/
+/* Partie Hébergement */
 #Hebergement{
     display: flex;
     justify-content: space-between;
@@ -222,6 +223,7 @@ section, footer{
             margin: 35px 35px 0 35px;
         }
 /* Partie les plus populaires */
+
 .Card-Aside{
     width: 30%;
     background: #F2F2F2;
@@ -287,7 +289,7 @@ section, footer{
             display: flex;
         }
 
-    /*  Partie Activité à Marseille */
+/*  Partie Activité à Marseille */
     #Activité{
         width: 100%;
         height: 650px;
@@ -370,7 +372,7 @@ footer{
     background: #F2F2F2;
     display: flex;
     flex-wrap: wrap;
-    padding: 1%;
+    padding: 5px;
     margin-top:25px;
 }
 .Footer-Body{
@@ -378,6 +380,14 @@ footer{
 }
 .HeaderFooter{
     font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+footer li{
+    list-style: none;
+    padding: 5px;
+}
+footer li ol{
 }
 
 /***********************************************************************************************************************
