@@ -17,6 +17,8 @@
                 <img src="Picture/logo/Reservia.svg" alt="Reservia">
                 <h1>Reservia</h1>
             </figure>
+
+            <!-- Partie menu -->
             <nav id="Navbar">
                 <ul id="Nav">
                     <li><a href="#Hebergement" class="Active">Hébergements</a></li>
@@ -28,15 +30,18 @@
             </nav>
         </div>
 
+        <!-- Partie Slogan -->
         <h2 class="Slogan">Trouvez votre hébergement pour des vacances de rêve</h2>
         <p class="Slogan">En plein centre ville ou en pleine nature</p>
 
+        <!-- Partie Bouton de Rechercher -->
         <div id="Recherche">
             <i class="fas fa-map-marker-alt"></i>
             <input type="text" placeholder="Marseille, France">
             <button id="Validation"><span class="SearchText">Rechercher</span><i class="fas fa-search"></i></button>
         </div>
 
+        <!-- Partie Filtres -->
         <div id="Filtres">
             <p id="HeaderFiltre">Filtres</p>
             <div class="cartouche">
@@ -74,6 +79,7 @@
 <!--                                         Partie Main                                                             -->
 
     <main>
+
         <!--                                         Partie Hébergement                                              -->
         <section id="Hebergement">
             <article class="Card-Article">
@@ -152,6 +158,7 @@
                     <h4>Afficher Plus</h4>
                 </div>
             </article>
+
             <!--                                         Partie Populaires                                           -->
             <aside class="Card-Aside">
 
@@ -201,64 +208,61 @@
                 </figure>
             </aside>
         </section>
+
         <!--                                         Partie Activité                                                 -->
-        <section id="SectionActi">
-            <article id="Activité">
-                <div class="ActiCard-Header">
+        <section id="Activité">
+            <article id="Card-Activité">
+                <div id="ActiHeader">
                     <h3>Activités à Marseille</h3>
                 </div>
-                <div id="ActiContainer">
-                    <figure class="ArtiCard">
-                            <a href="#"><img src="Picture/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port"/></a>
+                <div id="Acti-container">
+                    <figure class="Acti-Body">
+                        <a><img id="VieuxPort" src="Picture/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux port"/></a>
                         <figcaption class="Acti-main">
-                            <h4>Vieux port</h4>
+                            <h4>Vieux Port</h4>
                         </figcaption>
                     </figure>
-
                     <div class="Mid">
-                        <figure class="HighCard">
-                            <img src="Picture/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues"/>
-                            <figcaption class="MidMain">
-                                <h4>Fort de Pomègues</h4>
+                        <figure class="Acti-Body-Mid-Large">
+                            <a><img id="Pomègues" src="Picture/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues"/></a>
+                            <figcaption class="Acti-main">
+                                <h4>Auberge de la Cannebière</h4>
                             </figcaption>
                         </figure>
 
-
-                        <figure class="SmallCard">
-                            <img src="Picture/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Iles de Frioul"/>
-                            <figcaption class="MidMain">
-                                <h4>Iles du Frioul</h4>
+                        <figure class="Acti-Body-Mid-Small">
+                            <a><img id="Frioul" src="Picture/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Iles de Frioul"/></a>
+                            <figcaption class="Acti-main">
+                                <h4>Auberge de la Cannebière</h4>
                             </figcaption>
                         </figure>
                     </div>
 
-                    <figure class="ArtiCard">
-                        <img src="Picture/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques"/>
+                    <figure class="Acti-Body">
+                        <a><img id="Calanques" src="Picture/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques"/></a>
                         <figcaption class="Acti-main">
                             <h4>Parc National des Calanques</h4>
                         </figcaption>
                     </figure>
 
-                    <div class="Mid">
-                        <figure class="SmallCard">
-                            <img src="Picture/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde"/>
-                            <figcaption class="MidMain">
-                                <h4>Notre-Dame-de-la-Garde</h4>
-                            </figcaption>
-                        </figure>
+<!--                    <div class="Mid">-->
+<!--                        <figure class="Acti-Body-Mid-Small">-->
+<!--                            <a><img id="NotreDame" src="Picture/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde"/></a>-->
+<!--                            <figcaption class="Acti-main">-->
+<!--                                <h4>Auberge de la Cannebière</h4>-->
+<!--                            </figcaption>-->
+<!--                        </figure>-->
 
-                        <figure class="HighCard">
-                            <img src="Picture/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp"/>
-                            <figcaption class="MidMain">
-                                <h4>Parc Longchamp</h4>
-                            </figcaption>
-                        </figure>
-                    </div>
-
+<!--                        <figure class="Acti-Body-Mid-Large">-->
+<!--                            <a><img id="Longchamp" src="Picture/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp"/></a>-->
+<!--                            <figcaption class="Acti-main">-->
+<!--                                <h4>Auberge de la Cannebière</h4>-->
+<!--                            </figcaption>-->
+<!--                        </figure>-->
+<!--                    </div>-->
                 </div>
             </article>
         </section>
-
     </main>
 
 <!--                                         Partie Footer                                                           -->

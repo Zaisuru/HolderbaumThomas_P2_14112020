@@ -55,10 +55,6 @@ section, footer{
             color: #0065FC;
             border-top: 2px solid #0065FC;
         }
-        .Active{
-            color: #0065FC;
-            border-top: 2px solid #0065FC;
-        }
         #Navbar #Inscription{
             font-weight: bold;
         }
@@ -285,84 +281,48 @@ section, footer{
             margin-top: 1%;
             padding: 3px;
         }
-        #SectionActi{
-            display: flex;
-        }
 
 /*  Partie Activité à Marseille */
-    #Activité{
-        width: 100%;
-        height: 650px;
-        background: red;
-        display: flex;
-        flex-direction: column;
+#Activité{
+    background: pink;
+}
+    #Card-Activité{
+        background: peru;
     }
-    #Activité{
-        background: pink;
-        width: 100%;
-        height: 100%;
-    }
-        .ActiCard-Header{
-            background: peru;
-        }
-        #ActiContainer{
+        #Acti-container{
             background: mediumspringgreen;
-            width: 100%;
-            height: 100%;
             display: flex;
-            justify-content: space-between;
+            width: 100%;
         }
-            .ArtiCard{
-                background: palevioletred;
+            .Acti-Body{
                 border-radius: 15px;
                 width: 350px;
-                overflow: hidden;
+                height: 450px;
                 margin: 0;
                 padding: 0;
+                position: relative;
+                overflow: hidden;
             }
-                .ArtiCard img{
-                    height: 90%;
-                    border-top-right-radius: 15px;
-                    border-top-left-radius: 15px;
-                    margin: 0;
-                    padding: 0;
+                .Acti-Body a{
+                    overflow: hidden;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 15px;
+                }
+                .Acti-Body a img{
+                    position: relative;
+                }
+                    #VieuxPort{
+                        left: -150px;
+                    }
+                .Acti-Body .Acti-main{
+                    top: -100px;
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    background: white;
                 }
 
-            .Mid{
-                width: 350px;
-                background: peru;
-            }
-                .HighCard{
-                    background: purple;
-                    height: 45%;
-                    border-radius: 15px;
-                    margin: 0;
-                    padding: 0;
-                }
-                    .HighCard img{
-                        height: 85%;
-                        width: 100%;
-                        border-top-right-radius: 15px;
-                        border-top-left-radius: 15px;
-                    }
-                    .MidMain{
-                        margin: 0;
-                        padding: 0;
-                        background: pink;
-                    }
-                .SmallCard{
-                    background: purple;
-                    height: 30%;
-                    border-radius: 15px;
-                    margin: 0;
-                    padding: 0;
-                }
-                    .SmallCard img{
-                        height: 80%;
-                        width: 100%;
-                        border-top-right-radius: 15px;
-                        border-top-left-radius: 15px;
-                    }
 /***********************************************************************************************************************
                                             Début partie Footer
 ***********************************************************************************************************************/
@@ -393,6 +353,8 @@ footer li ol{
 /***********************************************************************************************************************
                                             Début partie Responsive
 ***********************************************************************************************************************/
-@media screen and (max-width:1080px) {
-
+@media screen and (max-width:1024px) {
+    #container{
+        margin: 0 15px 0 15px;
+    }
 }
