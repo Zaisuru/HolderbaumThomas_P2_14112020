@@ -283,25 +283,21 @@ section, footer{
         }
 
 /*  Partie Activité à Marseille */
-#Activité{
-    background: pink;
-}
-    #Card-Activité{
-        background: peru;
-    }
         #Acti-container{
-            background: mediumspringgreen;
             display: flex;
+            justify-content: space-between;
             width: 100%;
         }
             .Acti-Body{
                 border-radius: 15px;
-                width: 350px;
-                height: 450px;
+                background: pink;
+                width: 330px;
+                height: 500px;
                 margin: 0;
                 padding: 0;
                 position: relative;
                 overflow: hidden;
+                box-shadow: 3px 2px 5px grey;
             }
                 .Acti-Body a{
                     overflow: hidden;
@@ -311,18 +307,73 @@ section, footer{
                 }
                 .Acti-Body a img{
                     position: relative;
+                    height: 100%;
                 }
-                    #VieuxPort{
-                        left: -150px;
+                    #VieuxPort, #Calanques{
+                        left: -200px;
                     }
                 .Acti-Body .Acti-main{
-                    top: -100px;
+                    top: -65px;
                     width: 100%;
                     height: 100%;
                     position: relative;
                     background: white;
+                    padding: 3px;
                 }
-
+                .Acti-main h4{
+                    margin-left: 15px;
+                }
+            .Mid{
+                width: 330px;
+                height: 500px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+            }
+                .Large-Body{
+                    border-radius: 15px;
+                    box-shadow: 3px 2px 5px grey;
+                    margin: 0;
+                    padding: 0;
+                    height: 50%;
+                    width: 100%;
+                    overflow: hidden;
+                }
+                    .Large-Body a{
+                        width: 100%;
+                        height: 100%;
+                    }
+                        .Large-Body a img{
+                            width: 100%;
+                            position: relative;
+                        }
+                            #Pomègues{
+                                top: -150px;
+                            }
+                    .Large-main{
+                        background: white;
+                        padding: 2px;
+                        width: 100%;
+                        height: 100%;
+                        position: relative;
+                    }
+                .Small-Body{
+                    border-radius: 15px;
+                    box-shadow: 3px 2px 5px grey;
+                    margin: 0;
+                    padding: 0;
+                    height: 40%;
+                    width: 100%;
+                    overflow: hidden;
+                }
+                    .Small-Body a{
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .Small-Body a img{
+                        width: 100%;
+                        position: relative;
+                    }
 /***********************************************************************************************************************
                                             Début partie Footer
 ***********************************************************************************************************************/
