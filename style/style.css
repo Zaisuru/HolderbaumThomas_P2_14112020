@@ -186,16 +186,22 @@ section, footer{
             position: relative;
             overflow: hidden;
         }
-            .Card-Body a img{
-                position: relative;
-                height: 100%;
+            .Card-Body a{
+                overflow: hidden;
                 width: 100%;
-                border-radius: 15px;
             }
+            .Card-Body a img{
+                overflow: hidden;
+                border-radius: 15px;
+                position: relative;
+                width: 100%;
+                height: 80%;
+            }
+
             .Card-main{
                 position: absolute;
                 background: white;
-                top: 145px;
+                top: 155px;
                 height: 100%;
                 width: 235px;
                 padding: 8px;
@@ -206,7 +212,7 @@ section, footer{
                 margin: 0;
             }
             .Card-main p{
-                margin-top: 2px;
+                margin:0;
             }
             .Select{
                 color: #0065FC;
@@ -240,13 +246,11 @@ section, footer{
         position: relative;
     }
         .Aside-body a{
-            width: 55%;
-            height: 100%;
+            width: 65%;
             border-radius: 15px;
             overflow: hidden;
         }
             .Aside-body a img{
-                width: 100%;
                 height: 100%;
                 border-radius: 15px;
                 position: relative;
@@ -254,7 +258,7 @@ section, footer{
         .Aside-main{
             position: absolute;
             height: 135px;
-            left: 175px;
+            left: 135px;
             border-top-right-radius: 15px;
             border-bottom-right-radius: 15px;
             background: white;
@@ -459,23 +463,33 @@ footer li ol{
                 margin: 5px;
             }
     /* Partie Hebergements */
+    #Hebergement{
+        margin: 0;
+    }
         .Card-Article, .Card-Aside{
             width: 100%;
         }
         .Card-Article {
-            margin: 5px 0 5px 0;
+            margin: 0;
             background: white;
         }
             .Card-Body{
-                margin: 0 0 25px 0;
-                width: 100%;
+                width: 85%;
+                height: 190px;
+                margin: 10px;
                 overflow: hidden;
             }
+            .Card-Body a img{
+                width: 100%;
+                height: 100%;
+                position: relative;
+            }
                 .Card-main{
+                    top: 120px;
                     width: 100%;
                 }
             .Card-Header ,.Card-footer{
-                margin: 0 10px 0 10px;
+                margin: 0 25px 0 25px;
             }
 
     /* Partie Populaires */
@@ -483,24 +497,36 @@ footer li ol{
                 margin: 15px 15px 25px 15px;
             }
     /* Partie Activité */
+    #Acti-container{
+        margin: 0;
+        padding: 0;
+    }
+        #ActiHeader{
+            margin: 0 25px 0 25px;
+        }
         .Acti-Body, .Large-Body, .Small-Body{
-            margin: 25px 0 25px 0;
+            height: 190px;
+            margin: 15px 0 15px 0;
         }
-
         .Acti-Body{
-            width: 100%;
+            width: 85%;
         }
-            .Acti-Body a{
-                background: pink;
-                height: 100%;
+            .Acti-Body a img{
                 width: 100%;
+                height: 100%;
+                position: relative;
             }
-
+                #VieuxPort, #Calanques{
+                    left: initial;
+                }
         .Mid{
-            width: 100%;
             height: auto;
+            margin: 0;
+            padding: 0;
+            justify-content: initial;
         }
         .Large-Body, .Small-Body{
-            height: 300px;
+            width: 100%;
         }
+    /* Partie footer */
 }
