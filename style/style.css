@@ -452,11 +452,12 @@ footer li ol{
     #container {
         margin: 0;
         padding: 0;
+
     }
     /* Partie Header */
     #top-header{
         display: flex;
-        height: 100px;
+        height: 130px;
         flex-direction: row-reverse;
         position: relative;
     }
@@ -473,22 +474,34 @@ footer li ol{
             }
                 #Nav{
                     display: flex;
+                    height: 100%;
+                    width: 100%;
                     flex-direction: row;
-                    justify-content: space-around;
-                }
-                #Nav{
                     border-bottom: 3px solid #F2F2F2;
+                }
+                #Nav li a{
+                    width: 100%;
                 }
                 #Nav li:hover{
                     border-bottom: 3px solid #0065FC;
+                    width: 100%;
+                    padding: 0;
+                    position: relative;
                 }
                     #Nav li{
                         text-decoration: none;
                         width: 100%;
                     }
+
             #Navbar ul li a:hover{
                 border-top: none;
             }
+    #SloganBanner{
+        margin: 5px 15px 5px 15px;
+    }
+        .Slogan{
+            margin-bottom: 15px;
+        }
     #Recherche{
         display: flex;
         justify-content: center;
@@ -546,7 +559,7 @@ footer li ol{
         width: 100%;
     }
         .Aside-body{
-            width: 80%;
+            width: 90%;
         }
     /* Partie Activité */
     #Acti-container{
