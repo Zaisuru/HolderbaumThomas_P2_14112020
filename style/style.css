@@ -433,6 +433,18 @@ footer li ol{
         .Acti-Body{
             margin-bottom: 25px;
         }
+    .Card-Aside{
+        width: 100%;
+    }
+        #MainAside{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+            .Aside-body{
+                width: 40%;
+            }
 }
 
 @media screen and (max-width: 800px) {
@@ -442,6 +454,41 @@ footer li ol{
         padding: 0;
     }
     /* Partie Header */
+    #top-header{
+        display: flex;
+        height: 100px;
+        flex-direction: row-reverse;
+        position: relative;
+    }
+        #logo{
+            position: absolute;
+        }
+        #Navbar{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap-reverse;
+        }
+            #FirstNav{
+                width: 100%;
+            }
+                #Nav{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                }
+                #Nav{
+                    border-bottom: 3px solid #F2F2F2;
+                }
+                #Nav li:hover{
+                    border-bottom: 3px solid #0065FC;
+                }
+                    #Nav li{
+                        text-decoration: none;
+                        width: 100%;
+                    }
+            #Navbar ul li a:hover{
+                border-top: none;
+            }
     #Recherche{
         display: flex;
         justify-content: center;
@@ -474,7 +521,7 @@ footer li ol{
             background: white;
         }
             .Card-Body{
-                width: 85%;
+                /*width: 85%;*/
                 height: 190px;
                 margin: 10px;
                 overflow: hidden;
@@ -493,9 +540,14 @@ footer li ol{
             }
 
     /* Partie Populaires */
-            .Aside-body{
-                margin: 15px 15px 25px 15px;
-            }
+    #MainAside{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+        .Aside-body{
+            width: 80%;
+        }
     /* Partie Activité */
     #Acti-container{
         margin: 0;
@@ -521,12 +573,14 @@ footer li ol{
                 }
         .Mid{
             height: auto;
+            width: 100%;
             margin: 0;
             padding: 0;
             justify-content: initial;
+            align-items: center;
         }
         .Large-Body, .Small-Body{
-            width: 100%;
+            width: 85%;
         }
     /* Partie footer */
 }
