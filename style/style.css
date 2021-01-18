@@ -574,7 +574,14 @@ footer li ol{
     }
         .Aside-body{
             width: 100%;
+            overflow: hidden;
         }
+            .Aside-body a img{
+            }
+            .Aside-main{
+                height: 100%;
+                left: 110px;
+            }
     /* Partie Activité */
     #Acti-container{
         margin: 0;
@@ -610,4 +617,10 @@ footer li ol{
             width: 85%;
         }
     /* Partie footer */
+    footer{
+        margin: 0;
+    }
+    .Footer-Body{
+        width: 100%;
+    }
 }
