@@ -1,6 +1,7 @@
 /***********************************************************************************************************************
                                             Début partie Général
 ***********************************************************************************************************************/
+
 #container{
     max-width: 1500px;
     margin: auto;
@@ -22,44 +23,44 @@ section, footer{
     justify-content: space-between;
     margin-bottom: 15px;
 }
-    #logo{
-        margin: 0;
-        padding: 5px;
-    }
-    #Navbar{
-        justify-content: flex-end;
-        width: 50%;
-    }
-    #Navbar ul{
-        height: 100%;
-        padding: 0;
-        margin: 0;
-    }
-        #Navbar ul li{
-            display: inline-block;
-            margin: 0 20px 0 20px;
-            height: 100%;
-        }
-        #Navbar ul li a{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-decoration: none;
-            padding: 5px;
-            height: 100%;
-            width: 100%;
-            color: black;
-        }
-        #Navbar ul li a:hover{
-            color: #0065FC;
-            border-top: 2px solid #0065FC;
-        }
-        #Navbar #Inscription{
-            font-weight: bold;
-        }
-            #Navbar #Inscription li a{
-                color: #0065FC;
-            }
+#logo{
+    margin: 0;
+    padding: 5px;
+}
+#Navbar{
+    justify-content: flex-end;
+    width: 50%;
+}
+#Navbar ul{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+#Navbar ul li{
+    display: inline-block;
+    margin: 0 20px 0 20px;
+    height: 100%;
+}
+#Navbar ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+#Navbar ul li a:hover{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+}
+#Navbar #Inscription{
+    font-weight: bold;
+}
+#Navbar #Inscription li a{
+    color: #0065FC;
+}
 
 .Slogan{
     margin: 0;
@@ -69,89 +70,89 @@ section, footer{
     margin-top: 35px;
     height: 50px;
 }
-    #Recherche .fa-map-marker-alt{
-        background: #F2F2F2;
-        height: 100%;
-        width: 50px;
-        display: flex;
-        border-bottom-left-radius: 15px;
-        border-top-left-radius: 15px;
-        justify-content: center;
-        align-items: center;
-    }
-    #Recherche input{
-        border: none;
-        width:250px;
-        font-size: 18px;
-        padding: 15px;
-        border-top: 1px solid #F2F2F2;
-        border-bottom: 1px solid #F2F2F2;
-    }
-    #Recherche input::placeholder{
-        color: black;
-        font-weight: bold;
-    }
-    #Recherche #Validation{
-        background: #0065FC;
-        width: 150px;
-        height: 100%;
-        font-size: 18px;
-        color: white;
-        font-weight: bold;
-        border: none;
-        border-bottom-right-radius: 15px;
-        border-top-right-radius: 15px;
-    }
-    #Recherche .SearchLoupe{
-        display: none;
-    }
+#Recherche .fa-map-marker-alt{
+    background: #F2F2F2;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+#Recherche input{
+    border: none;
+    width:250px;
+    font-size: 18px;
+    padding: 15px;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+}
+#Recherche input::placeholder{
+    color: black;
+    font-weight: bold;
+}
+#Recherche #Validation{
+    background: #0065FC;
+    width: 150px;
+    height: 100%;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#Recherche .SearchLoupe{
+    display: none;
+}
 
 #Filtres{
     flex-wrap: wrap;
     margin-top: 35px;
 }
-    #HeaderFiltre{
-        font-weight: bold;
-        margin-right: 3%;
-    }
-    .cartouche{
-        display: flex;
-        border: 2px solid #F2F2F2;
-        border-radius: 30px;
-        margin-right: 35px;
-    }
-            .BtnFiltre {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                border-radius: 50%;
-                margin: -1px -1px -1px -1px;
-                width: 52px;
-                height: 52px;
-                background: #DEEBFF;
-                color: #0065FC;
-            }
-            .cartouche p{
-                font-weight: bold;
-                margin: 15px;
-            }
+#HeaderFiltre{
+    font-weight: bold;
+    margin-right: 3%;
+}
+.cartouche{
+    display: flex;
+    border: 2px solid #F2F2F2;
+    border-radius: 30px;
+    margin-right: 35px;
+}
+.BtnFiltre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: -1px -1px -1px -1px;
+    width: 52px;
+    height: 52px;
+    background: #DEEBFF;
+    color: #0065FC;
+}
+.cartouche p{
+    font-weight: bold;
+    margin: 15px;
+}
 
 #Banner{
     align-items: center;
     margin-top: 15px;
 }
-    #Banner i{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: none;
-        color: #0065FC;
-        border:2px solid #F2F2F2;
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        margin-right: 1%;
-    }
+#Banner i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    color: #0065FC;
+    border:2px solid #F2F2F2;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 1%;
+}
 
 /***********************************************************************************************************************
                                          Début partie Section
@@ -167,63 +168,63 @@ section, footer{
     margin-right: 20px;
     width: 70%;
 }
-    .Card-Header{
-        margin: 25px 35px 0 35px;
-    }
-    .Card-container{
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-        .Card-Body{
-            background: white;
-            padding: 5px;
-            height: 230px;
-            width: 250px;
-            border-radius: 15px;
-            box-shadow: 3px 2px 5px grey;
-            position: relative;
-            overflow: hidden;
-        }
-            .Card-Body a{
-                overflow: hidden;
-                width: 100%;
-            }
-            .Card-Body a img{
-                overflow: hidden;
-                border-radius: 15px;
-                position: relative;
-                width: 100%;
-                height: 70%;
-                object-fit: cover;
-            }
+.Card-Header{
+    margin: 25px 35px 0 35px;
+}
+.Card-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.Card-Body{
+    background: white;
+    padding: 5px;
+    height: 230px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 3px 2px 5px grey;
+    position: relative;
+    overflow: hidden;
+}
+.Card-Body a{
+    overflow: hidden;
+    width: 100%;
+}
+.Card-Body a img{
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
 
-            .Card-main{
-                position: absolute;
-                background: white;
-                top: 155px;
-                height: 100%;
-                width: 235px;
-                padding: 8px;
-                border-bottom-left-radius: 15px;
-                border-bottom-right-radius: 15px;
-            }
-            .Card-Body h4{
-                margin: 0;
-            }
-            .Card-main p{
-                margin:0;
-            }
-            .Select{
-                color: #0065FC;
-            }
-            .NoSelect{
-                color: #F2F2F2;
-            }
-        .Card-footer{
-            margin: 35px 35px 0 35px;
-        }
+.Card-main{
+    position: absolute;
+    background: white;
+    top: 155px;
+    height: 100%;
+    width: 235px;
+    padding: 8px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.Card-Body h4{
+    margin: 0;
+}
+.Card-main p{
+    margin:0;
+}
+.Select{
+    color: #0065FC;
+}
+.NoSelect{
+    color: #F2F2F2;
+}
+.Card-footer{
+    margin: 35px 35px 0 35px;
+}
 /* Partie les plus populaires */
 
 .Card-Aside{
@@ -231,162 +232,162 @@ section, footer{
     background: #F2F2F2;
     border-radius: 15px;
 }
-    .HeaderAside{
-        display: flex;
-        justify-content: space-between;
-        margin: 10px 35px 0 35px;
-        align-items: center;
-    }
-    .Aside-body{
-        background: white;
-        padding: 5px;
-        border-radius: 15px;
-        box-shadow: 3px 2px 5px grey;
-        display: flex;
-        height: 150px;
-        position: relative;
-    }
-        .Aside-body a{
-            width: 65%;
-            border-radius: 15px;
-            overflow: hidden;
-        }
-            .Aside-body a img{
-                height: 100%;
-                width: 70%;
-                border-radius: 15px;
-                position: relative;
-                object-fit: cover;
-                left: -15px;
-            }
-        .Aside-main{
-            position: absolute;
-            height: 135px;
-            left: 135px;
-            border-top-right-radius: 15px;
-            border-bottom-right-radius: 15px;
-            background: white;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            padding: 8px;
-         }
-        .Aside-body h4{
-            margin: 0;
-        }
-        .Aside-body p{
-            margin-top: 1%;
-            padding: 3px;
-        }
+.HeaderAside{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 35px 0 35px;
+    align-items: center;
+}
+.Aside-body{
+    background: white;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 3px 2px 5px grey;
+    display: flex;
+    height: 150px;
+    position: relative;
+}
+.Aside-body a{
+    width: 65%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.Aside-body a img{
+    height: 100%;
+    width: 70%;
+    border-radius: 15px;
+    position: relative;
+    object-fit: cover;
+    left: -15px;
+}
+.Aside-main{
+    position: absolute;
+    height: 135px;
+    left: 135px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8px;
+}
+.Aside-body h4{
+    margin: 0;
+}
+.Aside-body p{
+    margin-top: 1%;
+    padding: 3px;
+}
 
 /*  Partie Activité à Marseille */
-        #ActiHeader{
-            margin: 0 25px 20px 25px;
-        }
-        #Acti-container{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            width: 100%;
-        }
-            .Acti-Body{
-                border-radius: 15px;
-                width: 330px;
-                height: 500px;
-                margin: 0;
-                padding: 0;
-                position: relative;
-                overflow: hidden;
-                box-shadow: 3px 2px 5px grey;
-            }
-                .Acti-Body a{
-                    overflow: hidden;
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 15px;
-                }
-                .Acti-Body a img{
-                    position: relative;
-                    height: 100%;
-                }
-                    #VieuxPort, #Calanques{
-                        left: -200px;
-                    }
-                .Acti-Body .Acti-main{
-                    top: -65px;
-                    width: 100%;
-                    height: 100%;
-                    position: relative;
-                    background: white;
-                    padding: 3px;
-                }
-                .Acti-main h4{
-                    margin-left: 15px;
-                }
-            .Mid{
-                width: 330px;
-                height: 500px;
-                display: flex;
-                justify-content: space-between;
-                flex-direction: column;
-            }
-                .Large-Body{
-                    border-radius: 15px;
-                    box-shadow: 3px 2px 5px grey;
-                    margin: 0;
-                    padding: 0;
-                    height: 56%;
-                    width: 100%;
-                    overflow: hidden;
-                }
-                    .Large-Body a{
-                        height: 100%;
-                        width: 100%;
-                    }
-                        .Large-Body a img{
-                            width: 100%;
-                            height: 100%;
-                            position: relative;
-                            object-fit: cover;
-                        }
-                    .Large-main{
-                        top: -75px;
-                        padding: 3px;
-                        height: 100%;
-                        position: relative;
-                        background: white;
-                    }
-                        .Large-main h4{
-                            margin-left: 15px;
-                        }
-                .Small-Body{
-                    border-radius: 15px;
-                    box-shadow: 3px 2px 5px grey;
-                    margin: 0;
-                    padding: 0;
-                    height: 40%;
-                    width: 100%;
-                    overflow: hidden;
-                }
-                    .Small-Body a{
-                        width: 100%;
-                        height: 100%;
-                    }
-                    .Small-Body a img{
-                        width: 100%;
-                        height: 100%;
-                        position: relative;
-                    }
-                        .Small-main{
-                            top: -65px;
-                            background: white;
-                            padding: 3px;
-                            height: 100%;
-                            position: relative;
-                        }
-                            .Small-main h4{
-                                margin-left: 15px;
-                            }
+#ActiHeader{
+    margin: 0 25px 20px 25px;
+}
+#Acti-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+.Acti-Body{
+    border-radius: 15px;
+    width: 330px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 3px 2px 5px grey;
+}
+.Acti-Body a{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.Acti-Body a img{
+    position: relative;
+    height: 100%;
+}
+#VieuxPort, #Calanques{
+    left: -200px;
+}
+.Acti-Body .Acti-main{
+    top: -65px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: white;
+    padding: 3px;
+}
+.Acti-main h4{
+    margin-left: 15px;
+}
+.Mid{
+    width: 330px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.Large-Body{
+    border-radius: 15px;
+    box-shadow: 3px 2px 5px grey;
+    margin: 0;
+    padding: 0;
+    height: 56%;
+    width: 100%;
+    overflow: hidden;
+}
+.Large-Body a{
+    height: 100%;
+    width: 100%;
+}
+.Large-Body a img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+}
+.Large-main{
+    top: -75px;
+    padding: 3px;
+    height: 100%;
+    position: relative;
+    background: white;
+}
+.Large-main h4{
+    margin-left: 15px;
+}
+.Small-Body{
+    border-radius: 15px;
+    box-shadow: 3px 2px 5px grey;
+    margin: 0;
+    padding: 0;
+    height: 40%;
+    width: 100%;
+    overflow: hidden;
+}
+.Small-Body a{
+    width: 100%;
+    height: 100%;
+}
+.Small-Body a img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.Small-main{
+    top: -65px;
+    background: white;
+    padding: 3px;
+    height: 100%;
+    position: relative;
+}
+.Small-main h4{
+    margin-left: 15px;
+}
 /***********************************************************************************************************************
                                             Début partie Footer
 ***********************************************************************************************************************/
@@ -431,91 +432,90 @@ footer li ol{
         flex-direction: column-reverse;
         align-items: center;
     }
-        .Card-Article{
-            width: 100%;
-        }
-        .Card-Aside{
-            margin-bottom: 25px;
-            width: 50%;
-        }
-        .Acti-Body{
-            margin-bottom: 25px;
-        }
+    .Card-Article{
+        width: 100%;
+    }
+    .Card-Aside{
+        margin-bottom: 25px;
+        width: 50%;
+    }
+    .Acti-Body{
+        margin-bottom: 25px;
+    }
     .Card-Aside{
         width: 100%;
     }
-        #MainAside{
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            flex-direction: row;
-        }
-            .Aside-body{
-                width: 40%;
-            }
+    #MainAside{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .Aside-body{
+        width: 40%;
+    }
 }
 
 @media screen and (max-width: 800px) {
     /* Partie général */
-    #container {
-        max-width: initial;
-        margin:auto;
-        padding: 0;
-
+    body{
+        margin:0;
+    }
+    #container{
+        margin: auto;
     }
     /* Partie Header */
     #top-header{
-        margin: 0;
         display: flex;
         height: 130px;
         flex-direction: row-reverse;
         position: relative;
     }
-        #logo{
-            position: absolute;
-        }
-        #Navbar{
-            margin: 0;
-            padding: 0;
-            display: flex;
-            width: 100%;
-            flex-wrap: wrap-reverse;
-        }
-        #Navbar ul li{
-            margin: 0;
-        }
-            #FirstNav{
-                width: 100%;
-            }
-                #Nav{
-                    display: flex;
-                    height: 100%;
-                    width: 100%;
-                    flex-direction: row;
-                    border-bottom: 3px solid #F2F2F2;
-                    margin: 0;
-                    padding: 0;
-                }
-                #Nav li a{
-                    width: 100%;
-                }
-                    #Nav li{
-                        text-decoration: none;
-                        width: 100%;
-                    }
-                    #Nav li:hover{
-                        border-bottom: 3px solid #0065FC;
-                    }
+    #logo{
+        position: absolute;
+    }
+    #Navbar{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap-reverse;
+    }
+    #Navbar ul li{
+        margin: 0;
+    }
+    #FirstNav{
+        width: 100%;
+    }
+    #Nav{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        flex-direction: row;
+        border-bottom: 3px solid #F2F2F2;
+        margin: 0;
+        padding: 0;
+    }
+    #Nav li a{
+        width: 100%;
+    }
+    #Nav li{
+        text-decoration: none;
+        width: 100%;
+    }
+    #Nav li:hover{
+        border-bottom: 3px solid #0065FC;
+    }
 
-            #Navbar ul li a:hover{
-                border-top: none;
-            }
+    #Navbar ul li a:hover{
+        border-top: none;
+    }
     #SloganBanner{
         margin: 50px 15px 5px 15px;
     }
-        .Slogan{
-            margin-bottom: 15px;
-        }
+    .Slogan{
+        margin-bottom: 15px;
+    }
     #Recherche{
         display: flex;
         justify-content: center;
@@ -524,103 +524,117 @@ footer li ol{
         width: 65px;
         border-radius: 15px;
     }
-        .SearchText{
-            display: none;
-        }
-        #Recherche .SearchLoupe{
-            display: block;
-        }
-        #HeaderFiltre{
-            width: 100%;
-        }
-            .cartouche{
-                margin: 5px;
-            }
+    .SearchText{
+        display: none;
+    }
+    #Filtres{
+        margin: 15px 15px 0 15px;
+    }
+    #Recherche .SearchLoupe{
+        display: block;
+    }
+    #HeaderFiltre{
+        width: 100%;
+    }
+    .cartouche{
+        margin: 5px;
+    }
+    #Banner{
+        margin: 15px 15px 0 15px;
+    }
     /* Partie Hebergements */
     #Hebergement{
         margin: 0;
     }
-        .Card-Article, .Card-Aside{
-            width: 100%;
-        }
-        .Card-Article {
-            margin: 0;
-            background: white;
-        }
-            .Card-Body{
-                /*width: 85%;*/
-                height: 190px;
-                margin: 10px;
-                overflow: hidden;
-            }
-            .Card-Body a img{
-                width: 100%;
-                height: 100%;
-                position: relative;
-            }
-                .Card-main{
-                    top: 120px;
-                    width: 100%;
-                }
-            .Card-Header ,.Card-footer{
-                margin: 0 25px 0 25px;
-            }
+    .Card-Article, .Card-Aside{
+        width: 100%;
+    }
+    .Card-Article {
+        margin: 0;
+        background: white;
+    }
+    .Card-Body{
+        width: 80%;
+        height: 190px;
+        margin: 10px;
+        overflow: hidden;
+    }
+    .Card-Body a img{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .Card-main{
+        top: 120px;
+        width: 100%;
+    }
+    .Card-Header ,.Card-footer{
+        margin: 0 25px 0 25px;
+    }
 
     /* Partie Populaires */
+    .Card-Aside{
+        border-radius: initial;
+    }
     #MainAside{
         margin: 0;
         padding: 0;
         width: 100%;
     }
-        .Aside-body{
-            width: 100%;
-            overflow: hidden;
-        }
-            .Aside-body a img{
-            }
-            .Aside-main{
-                height: 100%;
-                left: 110px;
-            }
+    .Aside-body{
+        width: 100%;
+        overflow: hidden;
+    }
+    .Aside-body a img{
+    }
+    .Aside-main{
+        height: 100%;
+        left: 110px;
+    }
     /* Partie Activité */
     #Acti-container{
         margin: 0;
         padding: 0;
     }
-        #ActiHeader{
-            margin: 0 25px 0 25px;
-        }
-        .Acti-Body, .Large-Body, .Small-Body{
-            height: 190px;
-            margin: 15px 0 15px 0;
-        }
-        .Acti-Body{
-            width: 85%;
-        }
-            .Acti-Body a img{
-                width: 100%;
-                height: 100%;
-                position: relative;
-            }
-                #VieuxPort, #Calanques{
-                    left: initial;
-                }
-        .Mid{
-            height: auto;
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            justify-content: initial;
-            align-items: center;
-        }
-        .Large-Body, .Small-Body{
-            width: 85%;
-        }
+    #ActiHeader{
+        margin: 0 25px 0 25px;
+    }
+    .Acti-Body, .Large-Body, .Small-Body{
+        height: 190px;
+        margin: 15px 0 15px 0;
+    }
+    .Acti-Body{
+        width: 85%;
+    }
+    .Acti-Body a img{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    #VieuxPort, #Calanques{
+        left: initial;
+    }
+    .Mid{
+        height: auto;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        justify-content: initial;
+        align-items: center;
+    }
+    .Large-Body, .Small-Body{
+        width: 85%;
+    }
     /* Partie footer */
     footer{
-        margin: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
     }
     .Footer-Body{
+        margin: 0;
+        padding: 0;
         width: 100%;
+        height: 100%;
     }
 }
